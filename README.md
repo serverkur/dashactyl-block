@@ -21,7 +21,9 @@ app.use(ipgeoblock({
 
 
 To block all countries and allow specific countries
-<code>
+<code> 
+-	
+	
 // ipblock.
 
 const ipgeoblock = require("ipgeoblock-fixed");
@@ -33,6 +35,8 @@ app.use(ipgeoblock({
 	res.statusCode = 500;
 	res.redirect("https://block.hellnodes.com");
 }));
+	
+-	
 </code>
 
 
