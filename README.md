@@ -23,8 +23,8 @@ app.use(ipgeoblock({
 
 
 To block all countries and allow specific countries
-<code> 
--	
+```
+
 	
 // ipblock.
 
@@ -37,9 +37,8 @@ app.use(ipgeoblock({
 	res.statusCode = 500;
 	res.redirect("https://block.hellnodes.com");
 }));
-	
--	
-</code>
+```
+
 
 
 Don't forget to download after adding.
