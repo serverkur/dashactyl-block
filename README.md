@@ -5,8 +5,7 @@ Open index.js and add them
 
 
 Country Blocking will not work in all countries except the one you have added
-<code> 
--	
+```
 // ipblock.
 
 const ipgeoblock = require("ipgeoblock-fixed");
@@ -18,9 +17,9 @@ app.use(ipgeoblock({
 	res.statusCode = 500;
 	res.redirect("https://block.hellnodes.com");
 }));
-	
--	
-</code>
+
+```
+
 
 
 To block all countries and allow specific countries
